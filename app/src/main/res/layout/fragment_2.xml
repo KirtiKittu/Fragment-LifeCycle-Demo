@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.daffodil.com.actvityfragment.Fragment2"
+    android:background="#ffcb00">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="You have reached to second fragment"/>
+
+    <TextView
+        android:id="@+id/itxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:text="" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+        android:text="Click for fragment 3"
+        android:id="@+id/button3"
+         android:textSize="20dp"
+        android:layout_gravity="center" />
+
+</FrameLayout>
